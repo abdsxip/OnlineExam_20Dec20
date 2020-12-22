@@ -1,0 +1,826 @@
+﻿body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI;
+    font-size: 12px;
+    color: #1A3151; /*#3a3a3a*/
+    height: 100%;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+img
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.justify
+{
+    text-align: justify;
+}
+.bold
+{
+    font-weight: bold;
+}
+.center
+{
+    text-align: center;
+}
+.right
+{
+    text-align: right;
+}
+.nostart
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.clear
+{
+    clear: both;
+}
+br.clear
+{
+    clear: both;
+    margin-top: -15px;
+}
+
+
+
+.float-left
+{
+    float: left;
+}
+.float-right
+{
+    float: right;
+}
+.ContentBody
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+/* ----------------------------------------------Generalise-------------------------------------*/
+#header, #copyright
+{
+    position: relative;
+    margin: 0 auto 0;
+    display: block;
+    width: 100%;
+}
+#topbar, #intro, #breadcrumb, #container, #footer
+{
+    position: relative;
+    margin: 0 auto 0;
+    display: block;
+    width: 99%;
+}
+
+/*--- Hiperlinks in title menu ----*/
+#sec_menu
+{
+    background: #f5BF58 url(../Images/Buttons/linksHeader.png) repeat;
+    height: 30px;
+    margin: 2px 5px;
+    font-weight: bold;
+}
+.hlinks
+{
+    color: #5a523b;
+    padding: 7px 20px 10px 20px;
+    font-weight: normal;
+}
+.hlinks1
+{
+    padding: 0 10px;
+    color: #5a523b;
+}
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper
+{
+    display: block;
+    width: 100%;
+    margin: 0;
+    text-align: left;
+}
+
+div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6
+{
+    margin: 0 0 5px 0;
+    padding: 0 0 5px 0;
+    font-size: 20px;
+    font-weight: normal;
+    border-bottom: 1px dotted #000000;
+}
+/* ----------------------------------------------Header-------------------------------------*/
+
+#header
+{
+    padding: 0 0 0 0; /*background-image:url("../Images1/blue-back.jpg");*/
+    background-image: url("../Images/site/bc_img1.jpg");
+    height: 70px;
+}
+
+#logo
+{
+    width: 160px;
+    background-image: url("../Images/iiht-logo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height:70px;
+}
+.welcome_msg
+{
+    float: right;
+    padding: 5px;
+    height: 65px;
+    width: 20%;
+    color: Black;
+    font-size: 12px;
+    padding-top:0;
+    border-left: 1px solid Black;
+}
+
+.navihm
+{
+    color: #765b40;
+    font: 11px;
+    padding: 5px 5px 0 0px;
+}
+.PageTitle
+{
+    padding: 5px 0 0 29%;
+    font-size: 20px; /*increased from 12px to 14px*/
+    color: #336699;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+/* ----------------------------------------------Copyright-------------------------------------*/
+
+#copyright
+{
+    padding: 15px 0;
+    background-image: url("../Images/site/bc_img1.jpg");
+}
+#copyright a
+{
+    color: #3b2317;
+}
+#copyright p
+{
+    margin: 0;
+    padding: 0 5px 0 5px;
+    color: #000;
+}
+/*----title bar in content page ----*/
+.title_wrapper
+{
+    background: url(../Images/blue_shade.jpg);
+    padding: 3px 0px 0px 5px;
+   
+    position: relative;
+    height: 20px;
+    top: 0;
+    color: #fff;
+    font-size: 10pt;
+}
+.title_wrapper h2
+{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    white-space: nowrap;
+}
+
+/* ---- Buttons Start---- */
+
+.button
+{
+    display: block;
+    color: #fff;
+    font-size: 11px;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    float: left;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.button:link, a.button:visited, a.button:active
+{
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+a.button:hover *, .button:hover *
+{
+    text-decoration: underline;
+}
+
+
+.button span
+{
+    background: url(../Images/Button/submit_left.gif) no-repeat;
+    display: block;
+    float: left;
+    white-space: nowrap;
+}
+
+
+
+.button em
+{
+    display: block;
+    padding: 0 0 0 20px;
+    font-style: normal;
+    position: relative;
+    top: 0;
+    left: 0;
+    float: left;
+    min-height: 1px;
+}
+
+.button_ico
+{
+    display: block;
+    width: 20px;
+    height: 21px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.input-wrapper
+{
+    width: 150px;
+    height: 22px;
+}
+
+
+.button span span
+{
+    background: url(../Images/Button/submit_right.gif) no-repeat right 0;
+    display: block;
+    padding: 0 14px;
+    line-height: 22px;
+}
+
+
+
+.button input
+{
+    /*border-style: none;
+    border-color: inherit;
+    border-width: 0;*/
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    width: 1000px;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    position: absolute;
+    top: -63px;
+    left: -100px;
+    cursor: pointer;
+}
+.buttons
+{
+    float: left;
+    padding: 0 0 0 0px;
+}
+.buttons ul
+{
+    margin: 0;
+    padding: 0 30px 0 0;
+    float: left;
+    display: block;
+}
+.buttons ul li
+{
+    float: left;
+    margin: 0;
+    padding: 0 7px 0 0;
+}
+.red_btn
+{
+    background-image: url(../Images/Buttons/red_middle.gif); /*background-color: #b01604;*/
+}
+.red_btn span
+{
+    background-image: url(../Images/Buttons/red_left.jpg);
+}
+.red_btn span span
+{
+    background-image: url(../Images/Buttons/red_right.jpg);
+}
+.grey_btn
+{
+    background-image: url(../Images/Buttons/grey_middle.gif);
+    background-color: #E0CA98;
+    color: #5a5a5a !important;
+}
+.grey_btn span
+{
+    background-image: url(../Images/Buttons/grey_left.jpg);
+}
+.grey_btn span span
+{
+    background-image: url(../Images/Buttons/grey_right.jpg);
+}
+.dark_blue_btn
+{
+    background-image: url(../Images/Buttons/dark_blue_middle.jpg); /*background-color: #bfdfec;*/
+    color: White !important;
+}
+.dark_blue_btn span
+{
+    background-image: url(../Images/Buttons/dark_blue_left.jpg);
+}
+.dark_blue_btn span span
+{
+    background-image: url(../Images/Buttons/dark_blue_right.jpg);
+}
+/* ---- Buttons End ---- */
+.divScroll
+{
+    overflow: scroll;
+    font-size: 12px;
+    vertical-align: middle;
+    background-color: White;
+    margin: 0 5px 0px 5px;
+    min-height: 150px;
+}
+/*******************************************************/
+.sct
+{
+    background: #CFEEFF;
+    display: block; /*width: 100%;*/
+    position: relative;
+    margin: 0 5px;
+}
+.sct_left
+{
+    background: url(../Images/site/sct_left_right.png) repeat-y;
+}
+
+.sct_right
+{
+    background: url(../Images/site/sct_left_right.png) repeat-y right top;
+}
+
+.sct_left .sct_left
+{
+    background: url(../Images/site/sct_left.png) no-repeat;
+}
+
+.sct_left .sct_left .sct_right
+{
+    background: url(../Images/site/sct_left.png) no-repeat right top;
+    min-height: 30px;
+    padding: 0px 5px 0px; /* Here from 15px to 5px has changed */
+}
+.scb
+{
+    height: 10px;
+    margin: 0 15px;
+    padding: 0 5px;
+    background: url(../Images/site/scb.png) repeat-x;
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    min-height: 1px;
+}
+
+.scb_left
+{
+    margin-left: 10px;
+    width: 10px;
+    height: 10px;
+    display: block;
+    overflow: hidden;
+    background: url(../Images/site/scb_left.png);
+    position: absolute;
+    top: 0;
+    left: -20px;
+}
+
+.scb_right
+{
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+    display: block;
+    overflow: hidden;
+    background: url(../Images/site/scb_right.png);
+    position: absolute;
+    top: 0;
+    right: -20px;
+}
+
+
+/* ------Float -----*/
+.float-left
+{
+    float: left;
+}
+.float-right
+{
+    float: right;
+}
+/* *********************************************** textboxs ************************************** */
+.mandatory
+{
+    color: Red;
+    line-height: 36px;
+}
+.input_wrapper-tiny
+{
+    display: block;
+    float: left;
+    border: 1px solid #BE9225;
+    background: url(../images/login/input_bg.png) repeat-x;
+    background-color: White;
+    padding: 3px 3px;
+    width: 70px;
+}
+.input_wrapper-tiny:focus
+{
+    display: block;
+    float: left;
+    border: 1px solid #000;
+    background: url(../images/login/input_bg.png) repeat-x;
+    background-color: White;
+    padding: 3px 3px;
+    width: 70px;
+}
+.input_wrapper-small
+{
+    display: block;
+    float: left;
+    border: 1px solid #BE9225;
+    background-color: White;
+    padding: 3px 3px;
+    width: 130px;
+}
+.input_wrapper-small:focus
+{
+    display: block;
+    float: left;
+    border: 1px solid #000;
+    background-color: White;
+    padding: 3px 3px;
+    width: 130px;
+}
+.input_wrapper-small input, select /* Here Changed */
+{
+    margin: 0;
+    padding: 0;
+    background-color: White;
+    border: 0;
+    font-family: Arial;
+    font-size: 12px;
+    display: block;
+    width: 100%;
+}
+.input_wrapper-name
+{
+    display: block;
+    float: left;
+    border: 1px solid #BE9225;
+    background: url(../images/login/input_bg.png) repeat-x;
+    background-color: White;
+    padding: 3px 3px;
+    width: 136px;
+}
+.input_wrapper-name:focus
+{
+    display: block;
+    float: left;
+    border: 1px solid #000;
+    background: url(../images/login/input_bg.png) repeat-x;
+    background-color: White;
+    padding: 3px 3px;
+    width: 136px;
+}
+
+.input_wrapper_multiline
+{
+    text-align: justify;
+    float: left;
+    height: 50px;
+    width: 136px;
+    padding: 3px 3px;
+    border: 1px solid #BE9225;
+}
+.input_wrapper_multiline:focus
+{
+    text-align: justify;
+    float: left;
+    height: 50px;
+    width: 136px;
+    padding: 3px 3px;
+    border: 1px solid #000;
+}
+/*-------------------------- Label ---------------------*/
+.label-class /*changed */
+{
+    font-size: 15px;
+    min-width: 150px;
+    margin-top: 4px;
+    padding-top: 4px;
+}
+.label-class-small /*changed */
+{
+    font-size: 15px;
+    min-width: 80px;
+    margin-top: 0px;
+    padding-top: 4px;
+    font-weight: bold;
+}
+.label-class-tiny /*changed */
+{
+    font-size: 13px;
+    min-width: 50px;
+    margin-top: 0px;
+    padding-top: 4px;
+}
+/* ------------------------------------------ Light Color Section -------------------------------------- */
+.divScroll
+{
+    width: 99.5%;
+    height: 250px;
+    float: left;
+    overflow: scroll;
+    font-size: 12px;
+    vertical-align: middle;
+    background-color: White;
+    margin: 0px auto 8px 5px;
+    background-color: White;
+}
+div .errormsg
+{
+    color: Red;
+    padding-left: 10px;
+    background-color: #E0CA98;
+}
+.dim
+{
+    position: absolute;
+    top: 250px;
+    left: -150px;
+    width: 100%;
+    z-index: 100;
+    background: url('../images/site/dim.png');
+    display: none;
+    text-align: left;
+}
+
+.dimHeader
+{
+    background: url(../Images1/blue_shade.jpg); /*background-color:#39669D;     margin: 1px 5px 0;*/
+    padding: 3px 0px 0px 5px;
+    position: relative;
+    height: 25px; /*width:97.5%;*/
+    top: 0; /*left: 5px;     right:5px;*/
+    color: #fff;
+    font-size: 10pt;
+}
+.dimHeader h2
+{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 28px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    white-space: nowrap;
+}
+.msgbox
+{
+    position: absolute; /*  width: 850px;*/ /* height: 440px; min-height:320px;*/
+    z-index: 200;
+    border: 2px solid #B8860B;
+    background: #E0CA98;
+    top: 50%;
+    left: 70%;
+    margin-top: -185px;
+    margin-left: -425px;
+}
+.msgbox img
+{
+    border: none;
+    margin-top: 5px;
+}
+.close
+{
+    top: 0px;
+    float: right;
+}
+
+div .errormsg
+{
+    color: Red;
+    padding-left: 10px;
+    background-color: #E0CA98;
+}
+.searchmsg
+{
+    color: Red;
+    font-size: 10px;
+    padding-left: 10px;
+}
+/***********************Page Format********************/
+.pageWidth
+{
+    width:97%;
+    height:100%;
+    float:left;
+}
+.colm
+{
+    width: 28%;
+    float: left;
+    height: 100%;
+    padding: 0 5px;
+    margin: 5px;
+}
+.colm1
+{
+    width: 80px;
+    float: left;
+    padding: 10px 5px 5px 0px;
+}
+.colm2
+{
+    width: 80px;
+    float: left;
+    padding: 10px 5px 5px 10px;
+}
+/* For Search Pages */
+.row
+{
+    height: 80%;
+    width: 100%;
+    float: left;
+    padding: 0 10px;
+}
+.column1 /* 1st Label in the row */
+{
+    float: left;
+    width: 80px;
+    padding: 15px 5px 5px 0px;
+}
+.column2 /* for all the Textbox, Dropdown etc...*/
+{
+    float: left;
+    width: 150px;
+    padding: 10px 5px 5px 0px;
+}
+.column3 
+{
+    float: left;
+    min-width: 150px;
+    padding: 17px 5px 5px 10px;
+    display: inline-block;
+}
+.column4
+{
+    float: left;
+    min-width: 120px;
+    padding: 15px 0px 5px 0px;
+    display: inline-block;
+}
+.column5
+{
+    float: left;
+    max-width: 130px;
+    min-width: 80px;
+    padding: 10px 5px 5px 0;
+    margin-left:45%;
+}
+.column6 /* For Buttons Float - Right */
+{
+    float: right;
+    min-width: 50px;
+    padding: 10px 5px 5px 0px;
+}
+.column8 /* For Buttons Float - Left */
+{
+    float: left;
+    min-width: 50px;
+    padding: 10px 5px 5px 0px;
+}
+.column7 /* for Mandatory */
+{
+    float: left;
+    padding: 5px 5px 0 0;
+}
+
+.rdbtnSpacing label
+{
+   margin:10px 10px 10px 0;
+   color:#fff;
+}
+
+.rdbtnSpacing1 td
+{
+    border:1px solid #5f7a93;
+    padding:10px 5px;
+    background-color:#f2ece6;
+    color:#000;
+    font-size:11pt;
+}
+.rdbtnSpacing1 tr
+{
+    margin:0;
+}
+.section
+{
+    height: auto; 
+    width: 100%; 
+    background-color: #c7d2e7;
+}
+.leftColumn
+{
+    width: 200px; 
+    min-height: 600px; 
+    height: 100%; 
+    float: left;
+    padding-right:5px;
+    background-color: #416096; 
+    margin-top: 5px;
+}
+.Title
+{
+    width: 100%; 
+    background-color: Gray;
+    font-size: 11pt; 
+    padding-left: 5px;
+    color: White; 
+    height: 20px;
+}
+.rightColumn
+{
+    height: 100%; 
+    width: 76.9%; 
+    float: left; 
+    padding: 5px;
+}
+.QuesNo
+{
+    width: 100%; 
+   /* padding-left: 40%;*/
+    font-size: 12pt;
+    font-style: oblique;
+    text-align:center;
+}
+.Ques
+{
+    font-size: 14pt; 
+    font-family: MS Sans Serif;
+    border: 1px solid #5f7a93;
+    padding: 15px 5px 10px; 
+    margin: 5px 10px; 
+    background-color: #f2ece6;
+    color:#416096;
+}
+/* Welcome Page Styles */
+.Heading
+{
+    margin: 5px 5px 5px 40%; 
+    font-size: 12pt; 
+    font-style: oblique; 
+    float: left;
+    font-weight: bold
+}
+.box
+{
+    margin: 5px 5px 5px 2%; 
+    padding: 10px 5px; 
+    width: 98%; 
+    border: 1px solid #5f7a93;
+    float: left;
+}
+.Timeout
+{
+    visibility:hidden;
+}

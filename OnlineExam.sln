@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineExam", "OnlineExam\OnlineExam.csproj", "{2CD70234-2094-48F3-8893-159D59CABE27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{FA8475EB-C0C3-4EA3-A1F0-84A015CA928C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{A8E31DF8-DE10-4153-894B-A25D9EA37F5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OE.Business.Components", "OE.Business.Components\OE.Business.Components.csproj", "{C44EE005-F281-4994-9FB1-E758A77844AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OE.Business.Entities", "OE.Business.Entities\OE.Business.Entities.csproj", "{9B52B11D-9556-4681-A4B1-FEBD169F8440}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OE.Data", "OE.Data\OE.Data.csproj", "{1631FE2D-C651-4A8F-AB62-FE0D59FF5ECA}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.1.113:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = OE.Business.Components\\OE.Business.Components.csproj
+		SccProjectTopLevelParentUniqueName1 = OnlineExam.sln
+		SccProjectName1 = OE.Business.Components
+		SccLocalPath1 = OE.Business.Components
+		SccProjectUniqueName2 = OE.Business.Entities\\OE.Business.Entities.csproj
+		SccProjectTopLevelParentUniqueName2 = OnlineExam.sln
+		SccProjectName2 = OE.Business.Entities
+		SccLocalPath2 = OE.Business.Entities
+		SccProjectUniqueName3 = OE.Data\\OE.Data.csproj
+		SccProjectTopLevelParentUniqueName3 = OnlineExam.sln
+		SccProjectName3 = OE.Data
+		SccLocalPath3 = OE.Data
+		SccProjectUniqueName4 = OnlineExam\\OnlineExam.csproj
+		SccProjectName4 = OnlineExam
+		SccLocalPath4 = OnlineExam
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CD70234-2094-48F3-8893-159D59CABE27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CD70234-2094-48F3-8893-159D59CABE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CD70234-2094-48F3-8893-159D59CABE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CD70234-2094-48F3-8893-159D59CABE27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C44EE005-F281-4994-9FB1-E758A77844AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C44EE005-F281-4994-9FB1-E758A77844AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C44EE005-F281-4994-9FB1-E758A77844AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C44EE005-F281-4994-9FB1-E758A77844AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B52B11D-9556-4681-A4B1-FEBD169F8440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B52B11D-9556-4681-A4B1-FEBD169F8440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B52B11D-9556-4681-A4B1-FEBD169F8440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B52B11D-9556-4681-A4B1-FEBD169F8440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1631FE2D-C651-4A8F-AB62-FE0D59FF5ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1631FE2D-C651-4A8F-AB62-FE0D59FF5ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1631FE2D-C651-4A8F-AB62-FE0D59FF5ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1631FE2D-C651-4A8F-AB62-FE0D59FF5ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C44EE005-F281-4994-9FB1-E758A77844AE} = {FA8475EB-C0C3-4EA3-A1F0-84A015CA928C}
+		{9B52B11D-9556-4681-A4B1-FEBD169F8440} = {FA8475EB-C0C3-4EA3-A1F0-84A015CA928C}
+		{1631FE2D-C651-4A8F-AB62-FE0D59FF5ECA} = {A8E31DF8-DE10-4153-894B-A25D9EA37F5E}
+	EndGlobalSection
+EndGlobal
